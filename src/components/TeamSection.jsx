@@ -1,5 +1,4 @@
-// src/components/TeamSection.jsx
-import React from "react";
+
 import "../styles/TeamSection.css";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 

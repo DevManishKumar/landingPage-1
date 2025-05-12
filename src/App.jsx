@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
-import HeroSection from './components/heroSection';
+import HeroSection from './components/HeroSection';
 import CompaniesSection from './components/CompaniesSection';
 import ProductivitySection from './components/ProductivitySection';
 import FeaturesSection from './components/FeaturesSection';

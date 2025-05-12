@@ -1,5 +1,4 @@
-// src/components/FeaturesSection.jsx
-import React from 'react';
+
 import '../styles/FeaturesSection.css';
 import { TbFileCertificate } from 'react-icons/tb';
 import { AiOutlineNotification } from 'react-icons/ai';

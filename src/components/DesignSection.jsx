@@ -1,5 +1,3 @@
-// src/components/DesignSection.jsx
-import React from 'react';
 
 function DesignSection() {
   return (

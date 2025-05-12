@@ -101,7 +101,6 @@
   padding-bottom: 1.5rem;
 }
 
-/* Special card for image-only */
 .blog-card:has(.category-tag:only-child) {
   padding: 0;
 }

@@ -1,5 +1,3 @@
-// src/components/HeroSection.jsx
-import React from 'react';
 import CTAButton from './CTAButton';
 import '../styles/HeroSection.css'
 

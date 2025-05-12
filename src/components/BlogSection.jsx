@@ -1,5 +1,3 @@
-// src/components/BlogSection.jsx
-import React from "react";
 import "../styles/BlogSection.css";
 
 function BlogSection() {
