@@ -1,0 +1,75 @@
+.productivity-section,
+.automated-tasks-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+h2 {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.section-description {
+  color: #4a5568;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: start ;
+  margin-bottom: 1.5rem;
+}
+
+.checklist {
+  font-family: 'Inter', -apple-system, sans-serif;
+}
+
+.checklist-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.checklist-item {
+  padding: 12px 0;
+  font-size: 1.1rem;
+  color: var(--light-text);
+  position: relative;
+  padding-left: 32px;
+  line-height: 1.5;
+}
+
+.checklist-item:before {
+  content: "▯";
+  background-color: #fad712;
+  color: white;
+  padding: .3rem;
+  border-radius: 1em;
+}
+
+.productivity-Image img{
+    width: 400px;
+    height: 400px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .productivity-section,
+  .automated-tasks-section {
+    padding: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .productivity-Image img{
+    width: 300px;
+    height: 300px;
+}
+
+
+  .section-description {
+    font-size: 1rem;
+  }
+}

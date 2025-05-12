@@ -1,0 +1,41 @@
+.companies-section {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.companies-section h2 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: rgb(39, 39, 39);
+  margin-bottom: .5rem;
+}
+
+.companies-grid {
+    display: grid;
+  max-width: 1200px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  margin: 0 auto;
+}
+  
+
+.company-card {
+  padding: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.company-card:hover {
+  transform: translateY(-5px);
+}
+
+.company-card img {
+  margin: 0;
+  width: 100px;
+  height: 80px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {  
+  .companies-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
